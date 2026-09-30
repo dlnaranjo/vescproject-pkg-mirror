@@ -1,0 +1,217 @@
+[
+ {
+  "name": "Balance",
+  "file": "balance.vescpkg",
+  "dev": "controller",
+  "desc": "Auto-equilibrio. Controla el motor."
+ },
+ {
+  "name": "Blacktip DPV",
+  "file": "blacktip-dpv.vescpkg",
+  "dev": "controller",
+  "desc": "Control para vehículo de buceo (DPV)."
+ },
+ {
+  "name": "Boosted Doctor",
+  "file": "boosted-doctor.vescpkg",
+  "dev": "controller",
+  "desc": "Compatibilidad/diagnóstico Boosted."
+ },
+ {
+  "name": "BQ27441 Driver",
+  "file": "bq27441-driver.vescpkg",
+  "dev": "any",
+  "desc": "Medidor de batería BQ27441 (librería)."
+ },
+ {
+  "name": "Code Server",
+  "file": "code-server.vescpkg",
+  "dev": "gateway",
+  "desc": "Servidor de código LISP para desarrollo."
+ },
+ {
+  "name": "Dash 35B",
+  "file": "dash-35b.vescpkg",
+  "dev": "display",
+  "desc": "Interfaz del display Dash 35B. Va en la PANTALLA."
+ },
+ {
+  "name": "Dash16 HWTEST",
+  "file": "dash16-hwtest.vescpkg",
+  "dev": "display",
+  "desc": "Prueba de hardware del Dash 16."
+ },
+ {
+  "name": "Dash35B ESC",
+  "file": "dash35b-esc.vescpkg",
+  "dev": "controller",
+  "desc": "Emisor de telemetría para el display Dash 35B. Instálalo en el CONTROLADOR."
+ },
+ {
+  "name": "DispUI",
+  "file": "dispui.vescpkg",
+  "dev": "display",
+  "desc": "Interfaz de pantalla genérica."
+ },
+ {
+  "name": "Files",
+  "file": "files.vescpkg",
+  "dev": "gateway",
+  "desc": "Explorador de archivos del dispositivo (SD)."
+ },
+ {
+  "name": "Interpolation",
+  "file": "interpolation.vescpkg",
+  "dev": "any",
+  "desc": "Utilidad de interpolación (librería)."
+ },
+ {
+  "name": "LogUI",
+  "file": "logui.vescpkg",
+  "dev": "gateway",
+  "desc": "Registro de datos a microSD (VESC Express / Nanolog)."
+ },
+ {
+  "name": "midi",
+  "file": "midi.vescpkg",
+  "dev": "any",
+  "desc": "Reproducción MIDI con el motor (curiosidad)."
+ },
+ {
+  "name": "NAU7802 Driver",
+  "file": "nau7802-driver.vescpkg",
+  "dev": "any",
+  "desc": "Controlador de celda de carga NAU7802 (librería)."
+ },
+ {
+  "name": "PN532",
+  "file": "pn532.vescpkg",
+  "dev": "any",
+  "desc": "Controlador NFC PN532 (librería)."
+ },
+ {
+  "name": "Refloat",
+  "file": "refloat.vescpkg",
+  "dev": "controller",
+  "desc": "Auto-equilibrio (onewheel). Controla el motor."
+ },
+ {
+  "name": "TCA9534 Driver",
+  "file": "tca9534-driver.vescpkg",
+  "dev": "any",
+  "desc": "Expansor de E/S TCA9534 (librería)."
+ },
+ {
+  "name": "TCA9535 Driver",
+  "file": "tca9535-driver.vescpkg",
+  "dev": "any",
+  "desc": "Expansor de E/S TCA9535 (librería)."
+ },
+ {
+  "name": "Trick and Trail",
+  "file": "trick-and-trail.vescpkg",
+  "dev": "controller",
+  "desc": "Modos para onewheel."
+ },
+ {
+  "name": "UCLights",
+  "file": "uclights.vescpkg",
+  "dev": "controller",
+  "desc": "Control de luces."
+ },
+ {
+  "name": "VBMS Harmony16",
+  "file": "vbms-harmony16.vescpkg",
+  "dev": "bms",
+  "desc": "Paquete de BMS (Harmony 16S)."
+ },
+ {
+  "name": "VBMS Harmony32",
+  "file": "vbms-harmony32.vescpkg",
+  "dev": "bms",
+  "desc": "Paquete de BMS (Harmony 32S)."
+ },
+ {
+  "name": "VBMS32",
+  "file": "vbms32.vescpkg",
+  "dev": "bms",
+  "desc": "Paquete de BMS (32S)."
+ },
+ {
+  "name": "VBMS32 Micro",
+  "file": "vbms32-micro.vescpkg",
+  "dev": "bms",
+  "desc": "Paquete de BMS (32S Micro)."
+ },
+ {
+  "name": "VDisp",
+  "file": "vdisp.vescpkg",
+  "dev": "display",
+  "desc": "Interfaz del display VDisp. En la pantalla."
+ },
+ {
+  "name": "VDisp ESC",
+  "file": "vdisp-esc.vescpkg",
+  "dev": "controller",
+  "desc": "Emisor de telemetría para el display VDisp. En el controlador."
+ },
+ {
+  "name": "VL Bike 39P ESP",
+  "file": "vl-bike-39p-esp.vescpkg",
+  "dev": "gateway",
+  "desc": "Conversión de moto eléctrica (lado ESP/Express)."
+ },
+ {
+  "name": "VL Bike 39P STM",
+  "file": "vl-bike-39p-stm.vescpkg",
+  "dev": "controller",
+  "desc": "Conversión de moto eléctrica (lado controlador)."
+ },
+ {
+  "name": "Wheelie Assist",
+  "file": "wheelie-assist.vescpkg",
+  "dev": "controller",
+  "desc": "Asistente de caballito."
+ },
+ {
+  "name": "WS2812 Driver",
+  "file": "ws2812-driver.vescpkg",
+  "dev": "any",
+  "desc": "Controlador de tiras LED WS2812 (librería)."
+ },
+ {
+  "name": "Nanolog: LogUI original, volver atras",
+  "file": "logui-orig.vescpkg",
+  "dev": "gateway",
+  "desc": "PARA EL NANOLOG. Copia exacta, byte a byte, del LogUI que ya traia tu equipo. Instalalo para deshacer el cambio y dejar el Nanolog como estaba antes. No añade columnas de IMU. Es la vuelta atras segura.",
+  "custom": true
+ },
+ {
+  "name": "Controlador: IMU + Reversa + Fallo (VOPM) v3 (10Hz)",
+  "file": "imu-rev-v3.vescpkg",
+  "dev": "controller",
+  "desc": "Anade el codigo de FALLO del controlador por CAN (sid 771) para registrarlo en el log del Nanolog (columna Fault). Incluye IMU a 10 Hz + reversa. Solo lectura del IMU y del pin; no toca el motor ni la configuracion. Instalalo en el CONTROLADOR.",
+  "custom": true
+ },
+ {
+  "name": "Controlador: IMU+Reversa+Fallo+FOC (VOPM) v4",
+  "file": "imu-rev-v4.vescpkg",
+  "dev": "controller",
+  "desc": "Igual que v3, mas id/iq/vd/vq del motor a 10Hz (sid 772/773) para estimar el flux real en marcha, con carga, sin necesitar la rueda libre. Solo lectura; no toca el motor ni la configuracion. Instalalo en el CONTROLADOR.",
+  "custom": true
+ },
+ {
+  "name": "Nanolog: LogUI con IMU + Fallo (VOPM) v2.2",
+  "file": "logui-imu-v22.vescpkg",
+  "dev": "gateway",
+  "desc": "Anade la columna Fault (fallo del CONTROLADOR recibido por CAN, sid 771) al log. Incluye IMU + reversa. Instalalo en el NANOLOG.",
+  "custom": true
+ },
+ {
+  "name": "Nanolog: LogUI IMU+Fallo+FOC (VOPM) v2.3",
+  "file": "logui-imu-v23.vescpkg",
+  "dev": "gateway",
+  "desc": "Igual que v2.2, mas columnas ctrl_id/ctrl_iq/ctrl_vd/ctrl_vq del controlador (requiere el paquete v4 del controlador). Instalalo en el NANOLOG.",
+  "custom": true
+ }
+]
