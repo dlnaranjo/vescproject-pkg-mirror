@@ -194,10 +194,10 @@
   "custom": true
  },
  {
-  "name": "Controlador: IMU+Reversa+Fallo+FOC (VOPM) v4",
-  "file": "imu-rev-v4.vescpkg",
+  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v5",
+  "file": "imu-rev-v5.vescpkg",
   "dev": "controller",
-  "desc": "Igual que v3, mas id/iq/vd/vq del motor a 10Hz (sid 772/773) para estimar el flux real en marcha, con carga, sin necesitar la rueda libre. Solo lectura; no toca el motor ni la configuracion. Instalalo en el CONTROLADOR.",
+  "desc": "v3 mas la cadena de mando (acelerador, corriente pedida y objetivo), Hall crudo, angulos Hall/observer/BEMF, flux y resistencia estimados, reloj del controlador y foto del ultimo corte. Solo lectura; no toca el motor ni la configuracion. Instalalo en el CONTROLADOR y despues el v2.4 en el Nanolog.",
   "custom": true
  },
  {
@@ -208,10 +208,10 @@
   "custom": true
  },
  {
-  "name": "Nanolog: LogUI IMU+Fallo+FOC (VOPM) v2.3",
-  "file": "logui-imu-v23.vescpkg",
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.4",
+  "file": "logui-imu-v24.vescpkg",
   "dev": "gateway",
-  "desc": "Igual que v2.2, mas columnas ctrl_id/ctrl_iq/ctrl_vd/ctrl_vq del controlador (requiere el paquete v4 del controlador). Instalalo en el NANOLOG.",
+  "desc": "v2.2 mas 69 columnas de diagnostico del controlador (requiere el paquete v5 del controlador). Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
