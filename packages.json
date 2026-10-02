@@ -194,10 +194,10 @@
   "custom": true
  },
  {
-  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v5",
-  "file": "imu-rev-v5.vescpkg",
+  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v6",
+  "file": "imu-rev-v6.vescpkg",
   "dev": "controller",
-  "desc": "v3 mas la cadena de mando (acelerador, corriente pedida y objetivo), Hall crudo, angulos Hall/observer/BEMF, flux y resistencia estimados, reloj del controlador y foto del ultimo corte. Solo lectura; no toca el motor ni la configuracion. Instalalo en el CONTROLADOR y despues el v2.4 en el Nanolog.",
+  "desc": "v3 + cadena de mando completa (acelerador, rango ADC, corriente pedida/objetivo, modulacion PWM), Hall crudo, angulos Hall/observer/BEMF, flux y resistencia estimados, giroscopio, reloj, version de firmware, medidores de carga del MCU y foto del corte (antes/corte/despues). Solo lectura. Instalalo en el CONTROLADOR y despues el v2.5 en el Nanolog.",
   "custom": true
  },
  {
@@ -208,10 +208,10 @@
   "custom": true
  },
  {
-  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.4",
-  "file": "logui-imu-v24.vescpkg",
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.5",
+  "file": "logui-imu-v25.vescpkg",
   "dev": "gateway",
-  "desc": "v2.2 mas 61 columnas de diagnostico del controlador (el log pasa de 17 a 78 campos y de 24 a 85 columnas de CSV). Requiere el paquete v5 del controlador. Instalalo en el NANOLOG.",
+  "desc": "v2.2 + 74 columnas de diagnostico del controlador (el log pasa de 17 a 91 campos y de 24 a 98 columnas de CSV). La foto del corte solo se escribe cuando hay un corte nuevo. Requiere el paquete v6 del controlador. Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
