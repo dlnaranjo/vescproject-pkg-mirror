@@ -211,7 +211,7 @@
   "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.4",
   "file": "logui-imu-v24.vescpkg",
   "dev": "gateway",
-  "desc": "v2.2 mas 69 columnas de diagnostico del controlador (requiere el paquete v5 del controlador). Instalalo en el NANOLOG.",
+  "desc": "v2.2 mas 61 columnas de diagnostico del controlador (el log pasa de 17 a 78 campos y de 24 a 85 columnas de CSV). Requiere el paquete v5 del controlador. Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
