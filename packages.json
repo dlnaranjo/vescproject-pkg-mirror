@@ -197,7 +197,7 @@
   "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v9",
   "file": "imu-rev-v9.vescpkg",
   "dev": "controller",
-  "desc": "v8 + huella de version: el script lleva su numero (ctrl-ver) y lo manda en cada log como columna ctrl_ver, y la app lo muestra en Diagnostico del dispositivo junto al uso real de CPU, monton y memoria del interprete. Mismo disparador de cortes que v8 (regla de historial + regla de demanda). Solo lectura. Instalalo en el CONTROLADOR y despues el v2.8 en el Nanolog.",
+  "desc": "v8 + huella de version: el script lleva su numero (ctrl-ver) y lo manda en cada log como columna ctrl_ver, y la app lo muestra en Diagnostico del dispositivo junto al uso real de CPU, monton y memoria del interprete. Mismo disparador de cortes que v8 (regla de historial + regla de demanda). Solo lectura. Instalalo en el CONTROLADOR y despues el v2.9 en el Nanolog.",
   "custom": true
  },
  {
@@ -208,10 +208,10 @@
   "custom": true
  },
  {
-  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.8",
-  "file": "logui-imu-v28.vescpkg",
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes+GPS hibrido (VOPM) v2.9",
+  "file": "logui-imu-v29.vescpkg",
   "dev": "gateway",
-  "desc": "v2.7 + columnas ctrl_ver y lg_ver (que version del controlador y del LogUI grabo cada log). 96 campos por fila y 103 columnas de CSV. Requiere el paquete v9 del controlador. Instalalo en el NANOLOG.",
+  "desc": "v2.8 + el Nanolog ya NO espera al GPS para grabar. Con el registro automatico con GPS empieza unos 25 segundos despues de encender: si el GPS ya tenia fecha el archivo lleva la fecha en el nombre; si no, se numera (log_NNN.csv) y las columnas de fecha, hora y posicion (t_day_pos, gnss_ymd, gnss_lat...) se llenan cuando el GPS las entrega. 103 campos por fila y 104 columnas de CSV. Requiere el paquete v9 del controlador. Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
