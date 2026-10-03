@@ -194,10 +194,10 @@
   "custom": true
  },
  {
-  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v8",
-  "file": "imu-rev-v8.vescpkg",
+  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v9",
+  "file": "imu-rev-v9.vescpkg",
   "dev": "controller",
-  "desc": "v7 + disparador mejorado: ademas de la regla de historial, dispara cuando la corriente pedida (iq_set) es alta y la real casi cero durante 30 ms (atrapa el corte que llega tras una bajada lenta de corriente), solo con el motor girando y sin estar a tope de velocidad. Registra cual regla disparo (cut_kind). Solo lectura. Instalalo en el CONTROLADOR y despues el v2.7 en el Nanolog.",
+  "desc": "v8 + huella de version: el script lleva su numero (ctrl-ver) y lo manda en cada log como columna ctrl_ver, y la app lo muestra en Diagnostico del dispositivo junto al uso real de CPU, monton y memoria del interprete. Mismo disparador de cortes que v8 (regla de historial + regla de demanda). Solo lectura. Instalalo en el CONTROLADOR y despues el v2.8 en el Nanolog.",
   "custom": true
  },
  {
@@ -208,10 +208,10 @@
   "custom": true
  },
  {
-  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.7",
-  "file": "logui-imu-v27.vescpkg",
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes (VOPM) v2.8",
+  "file": "logui-imu-v28.vescpkg",
   "dev": "gateway",
-  "desc": "v2.6 + columna cut_kind (que regla disparo el vigilante). 94 campos por fila y 101 columnas de CSV. Requiere el paquete v8 del controlador. Instalalo en el NANOLOG.",
+  "desc": "v2.7 + columnas ctrl_ver y lg_ver (que version del controlador y del LogUI grabo cada log). 96 campos por fila y 103 columnas de CSV. Requiere el paquete v9 del controlador. Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
