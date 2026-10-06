@@ -201,10 +201,10 @@
   "custom": true
  },
  {
-  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v10 NUEVO",
+  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v10",
   "file": "imu-rev-v10.vescpkg",
   "dev": "controller",
-  "desc": "v9 + dos datos nuevos para el misterio de los cortes: los LIMITES DE CORRIENTE EFECTIVOS que el firmware recalcula (motor min/max, bateria min/max) y los dos sensores de temperatura de los transistores por separado. Solo lectura. NUEVO, sin probar en el vehiculo: tras instalarlo mira en Diagnostico del dispositivo que el script este EN MARCHA y la version diga 10. Si algo falla, reinstala el v9. Instalalo en el CONTROLADOR y despues el v3.0 en el Nanolog.",
+  "desc": "v9 + dos datos nuevos para el misterio de los cortes: los LIMITES DE CORRIENTE EFECTIVOS que el firmware recalcula (motor min/max, bateria min/max) y los dos sensores de temperatura de los transistores por separado. Solo lectura. Probado en el vehiculo (log 928: las columnas llegan). Si algo falla, reinstala el v9. Instalalo en el CONTROLADOR y despues el v3.0 en el Nanolog.",
   "custom": true
  },
  {
@@ -222,10 +222,24 @@
   "custom": true
  },
  {
-  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes+GPS hibrido (VOPM) v3.0 NUEVO",
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes+GPS hibrido (VOPM) v3.0",
   "file": "logui-imu-v30.vescpkg",
   "dev": "gateway",
-  "desc": "v2.9 + columnas lim_cmin, lim_cmax, lim_imin, lim_imax (limites de corriente efectivos) y tfet1, tfet2 (sensores de temperatura de los transistores). 109 campos por fila y 110 columnas de CSV. Requiere el paquete v10 del controlador. NUEVO, sin probar en el vehiculo; si algo falla, reinstala el v2.9. Instalalo en el NANOLOG.",
+  "desc": "v2.9 + columnas lim_cmin, lim_cmax, lim_imin, lim_imax (limites de corriente efectivos) y tfet1, tfet2 (sensores de temperatura de los transistores). 109 campos por fila y 110 columnas de CSV. Requiere el paquete v10 del controlador. Probado en el vehiculo (log 928). Si algo falla, reinstala el v2.9. Instalalo en el NANOLOG.",
+  "custom": true
+ },
+ {
+  "name": "Controlador: IMU+Reversa+Fallo+Diagnostico de cortes (VOPM) v11 NUEVO",
+  "file": "imu-rev-v11.vescpkg",
+  "dev": "controller",
+  "desc": "v10 + el CONTADOR DE LA RUTINA DE APAGADO del firmware (event-shutdown): cuenta cuantas veces el controlador creyo que el boton de encendido se solto (eso hace que ignore el acelerador 10 s sin dar falla) y hace cuanto fue la ultima. Va en la trama 793 a 5 Hz junto a los dos sensores de temperatura. Solo lectura: solo cuenta, no cambia nada de lo que hace el firmware. NUEVO, sin probar en el vehiculo: tras instalarlo mira en Diagnostico del dispositivo que el script este EN MARCHA y la version diga 11. Si algo falla, reinstala el v10. Instalalo en el CONTROLADOR y despues el v3.1 en el Nanolog.",
+  "custom": true
+ },
+ {
+  "name": "Nanolog: LogUI IMU+Fallo+Diagnostico de cortes+GPS hibrido (VOPM) v3.1 NUEVO",
+  "file": "logui-imu-v31.vescpkg",
+  "dev": "gateway",
+  "desc": "v3.0 + columnas sd_cnt (veces que el firmware corrio su rutina de apagado) y sd_age (segundos desde la ultima, -1 = nunca). 111 campos por fila y 112 columnas de CSV. Requiere el paquete v11 del controlador. NUEVO, sin probar en el vehiculo; si algo falla, reinstala el v3.0. Instalalo en el NANOLOG.",
   "custom": true
  }
 ]
